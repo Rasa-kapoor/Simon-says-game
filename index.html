@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siman Say Game</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+
+<body class="body ">
+    <audio class="endSound" controls src="./sounds/soundEndGame.mp3"></audio>
+    <!-- <audio class="btnSound" controls src="./sounds/tabsound.mp3"></audio> -->
+    <audio class="sbtnSound" controls src="./sounds/StartGame.wav"></audio>
+
+    <h1 class="Gname">Simon Says Game</h1>
+    <h2 class="level">Press Start Button To Start</h2>
+    <form action="./assest/rule.html">
+        <button class="rulebtn">GAME RULES</button>
+    </form>
+    <button class="start">Start</button>
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green"></div>
+            <div class="btn purple" type="button" id="purple"></div>
+        </div>
+    </div>
+    <h1 class="highscore"></h1>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

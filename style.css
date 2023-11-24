@@ -1,0 +1,240 @@
+body {
+    text-align: center;
+    /* background-color: black; */
+    /* margin: 0;
+    padding: 0; */
+    /* background: url('img/bg3.jpg') no-repeat center center/cover; */
+
+    /* background-position: center; */
+
+    color: white;
+}
+
+.body {
+    /* background: url('img/new2bg.jpg') no-repeat center center/cover; */
+    background: linear-gradient(to bottom, #0b0813, #10088b);
+    /* background-color: black; */
+}
+
+
+.btn {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 20%;
+    border: 10px solid rgba(33, 33, 33, 0.564);
+    margin: 2rem;
+    padding: 1em;
+    font-weight: 800;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 22px 30px rgb(11, 11, 11);
+
+}
+
+.btn>p {
+    font-size: 2rem;
+}
+
+.red,
+.green {
+    margin-bottom: 4rem !important;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+    /* position: relative;
+    top: 50px; */
+}
+
+.red {
+    background-color: rgb(246 26 215);
+}
+
+.yellow {
+    background-color: #f4d42c;
+}
+
+.green {
+    background-color: #19ffdfc7;
+}
+
+.purple {
+    background-color: rgb(210 20 106);
+}
+
+
+.flash {
+    background-color: rgb(255, 253, 232);
+    box-shadow: 2px 2px 10px red !important;
+}
+
+.userFlash {
+    /* box-shadow: none; */
+    box-shadow: 10px 10px 15px rgb(185, 179, 179);
+    /* background-color: blue; */
+    /* box-shadow: none !important; */
+
+}
+
+@media (max-width: 524px) {
+    .btn {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+        border: 10px solid rgba(33, 33, 33, 0.564);
+        margin: 1.4rem;
+        padding: .5em;
+        /* box-shadow: 2px 2px 10px rgb(255, 255, 255); */
+
+    }
+
+    .btn>p {
+        font-size: 1.5rem;
+    }
+
+    .red,
+    .green {
+        margin-bottom: 2.48em !important;
+    }
+}
+
+.start {
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(1, 5, 253);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 20px rgb(170, 170, 170);
+    margin: 5px;
+}
+
+.start:hover {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.level {
+    height: 50px;
+    font-size: 1.3rem;
+    font-family: 'changa';
+}
+
+.highscore {
+    font-size: 1.8rem;
+    color: white;
+    margin: 12px;
+}
+
+.Gname {
+    font-size: 40px;
+    /* text-decoration: underline; */
+    font-family: 'Press Start 2P';
+}
+
+audio {
+    display: none;
+}
+
+/* rules styling */
+.rulesh1 {
+    font-size: 45px;
+    font-family: 'Press Start 2P';
+    color: rgb(34, 190, 177);
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.description {
+    margin: 2rem;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    padding: 3rem;
+    margin: 3rem;
+    width: 60%;
+    margin: auto;
+
+}
+
+.rules {
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    font-size: 2em;
+    background-color: rgb(24, 24, 24);
+}
+
+.rulebtn {
+    padding: .25rem .75rem;
+    margin: 20px;
+    background-color: rgb(21 120 110);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.rulelist b {
+    color: rgb(185, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rulelist p{
+    font-family:  sans-serif;
+    
+}
+
+.rulebtn:hover {
+    background-color: rgb(96, 95, 95);
+    color: white;
+}
+
+.backbtn {
+    padding: 0.25rem 1.75rem;
+    margin: 40px;
+    background-color:rgb(9, 121, 124);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* color: black; */
+}
+
+.backbtn:hover {
+    background-color: rgb(80, 79, 82);
+}
+
+.rule-body {
+    /* padding: 1.5rem; */
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(to bottom, #0b0813, #192c79);
+}
+
+.head3 {
+    /* text-decoration: underline; */
+    font-family: 'Press Start 2P';
+    font-size:18px;
+}
+
+.h3 {
+    /* text-decoration: underline; */
+    /* background-color:rgb(22 234 185); */
+    /* border-radius: 10px; */
+    /* padding:5px; */
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    color: rgb(34, 190, 177);
+}
