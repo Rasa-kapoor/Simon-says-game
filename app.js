@@ -89,7 +89,7 @@ function checkAns(idx){
     }
     else{
         h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br>Press Start Button To Start`;
-        document.querySelector("body").style.backgroundColor  = "red";
+        
         startbtn.style.backgroundColor = "blue";   
 
         gameOverSound();
