@@ -128,11 +128,11 @@ body {
 .highscore {
     font-size: 1.8rem;
     color: white;
-    margin: 12px;
+    margin: 10px;
 }
 
 .Gname {
-    font-size: 40px;
+    font-size: 36px;
     /* text-decoration: underline; */
     font-family: 'Press Start 2P';
 }
